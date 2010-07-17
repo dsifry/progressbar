@@ -1,0 +1,722 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-17 09:31:31) [GET]
+
+NameError (uninitialized constant ImagesController):
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-17 09:31:42) [GET]
+
+NameError (uninitialized constant ImagesController):
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-17 09:31:47) [GET]
+
+NameError (uninitialized constant ImagesController):
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 09:33:59) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: images: SELECT * FROM "images" ):
+  app/controllers/image_controller.rb:3:in `index'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 09:34:20) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: images: SELECT * FROM "images" ):
+  app/controllers/image_controller.rb:3:in `index'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 09:37:10) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: images: SELECT * FROM "images" ):
+  app/controllers/image_controller.rb:3:in `index'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 09:39:24) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SchemaChangedException: no such table: images: SELECT * FROM "images" ):
+  app/controllers/image_controller.rb:3:in `index'
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 09:39:45) [GET]
+Rendering image/index
+Completed in 64ms (View: 60, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-17 09:39:57) [POST]
+  Parameters: {"commit"=>"upload image", "authenticity_token"=>"4fxC3Pm6eitC0dIslj1jGL6jW9+b2V+6997EdexWHXY=", "X-Progress-ID"=>"576573510903905314644422940041", "image"=>{"photo"=>#<File:/tmp/RackMultipart20100717-22521-zicxsr-0>}}
+
+ActionController::RoutingError (No route matches "/images" with {:method=>:post}):
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 09:40:34) [GET]
+Rendering image/index
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 09:42:07) [GET]
+Rendering image/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2010-07-17 09:43:36) [POST]
+  Parameters: {"commit"=>"upload image", "authenticity_token"=>"4fxC3Pm6eitC0dIslj1jGL6jW9+b2V+6997EdexWHXY=", "X-Progress-ID"=>"771193975577608368178861768682", "image"=>{"photo"=>#<File:/tmp/RackMultipart20100717-22531-fmg5h8-0>}}
+
+NameError (uninitialized constant ImagesController):
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 09:45:31) [GET]
+  Parameters: {"X-Progress-ID"=>"771193975577608368178861768682"}
+Rendering image/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://localhost/image?X-Progress-ID=771193975577608368178861768682]
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 09:45:35) [GET]
+Rendering image/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://localhost/image]
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2010-07-17 09:46:10) [POST]
+  Parameters: {"commit"=>"upload image", "authenticity_token"=>"4fxC3Pm6eitC0dIslj1jGL6jW9+b2V+6997EdexWHXY=", "X-Progress-ID"=>"868464782030054007914687591694", "image"=>{"photo"=>#<File:/tmp/RackMultipart20100717-22531-nzhk69-0>}}
+
+NameError (uninitialized constant ImagesController):
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 09:46:30) [GET]
+Rendering image/index
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/image]
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 09:46:37) [GET]
+Rendering image/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://localhost/image]
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 09:47:17) [POST]
+  Parameters: {"commit"=>"upload image", "authenticity_token"=>"4fxC3Pm6eitC0dIslj1jGL6jW9+b2V+6997EdexWHXY=", "X-Progress-ID"=>"211160897804955866035128147890", "image"=>{"photo"=>#<File:/tmp/RackMultipart20100717-22599-ehqgea-0>}}
+Rendering image/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/image?X-Progress-ID=211160897804955866035128147890]
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 09:57:50) [GET]
+Rendering template within layouts/application
+Rendering image/index
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-17 09:57:51) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/default.css" with {:method=>:get}):
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-17 09:57:51) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery.autocomplete" with {:method=>:get}):
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 09:58:35) [POST]
+  Parameters: {"commit"=>"upload image", "authenticity_token"=>"4fxC3Pm6eitC0dIslj1jGL6jW9+b2V+6997EdexWHXY=", "X-Progress-ID"=>"903139620597351766010357125222", "image"=>{"photo"=>#<File:/tmp/RackMultipart20100717-22683-1et1gd9-0>}}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/image?X-Progress-ID=903139620597351766010357125222]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-17 09:58:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/default.css" with {:method=>:get}):
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-17 09:58:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery.autocomplete" with {:method=>:get}):
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 09:59:28) [GET]
+  Parameters: {"X-Progress-ID"=>"903139620597351766010357125222"}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/image?X-Progress-ID=903139620597351766010357125222]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-17 09:59:28) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/default.css" with {:method=>:get}):
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-17 09:59:28) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery.autocomplete" with {:method=>:get}):
+  passenger (2.2.15) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.15) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.15) lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.15) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 10:09:43) [GET]
+  Parameters: {"X-Progress-ID"=>"903139620597351766010357125222"}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/image?X-Progress-ID=903139620597351766010357125222]
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 10:10:30) [POST]
+  Parameters: {"commit"=>"upload image", "authenticity_token"=>"4fxC3Pm6eitC0dIslj1jGL6jW9+b2V+6997EdexWHXY=", "X-Progress-ID"=>"586786781398393494199401280954", "image"=>{"photo"=>#<File:/tmp/RackMultipart20100717-22766-tklv0l-0>}}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/image?X-Progress-ID=586786781398393494199401280954]
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 10:12:42) [GET]
+Rendering template within layouts/application
+Rendering image/index
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/image]
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 10:14:06) [GET]
+Rendering template within layouts/application
+Rendering image/index
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/image]
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 10:16:00) [GET]
+Rendering template within layouts/application
+Rendering image/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://localhost/image]
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 10:16:34) [GET]
+Rendering template within layouts/application
+Rendering image/index
+Completed in 17ms (View: 14, DB: 0) | 200 OK [http://localhost/image]
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 10:17:12) [POST]
+  Parameters: {"authenticity_token"=>"4fxC3Pm6eitC0dIslj1jGL6jW9+b2V+6997EdexWHXY=", "X-Progress-ID"=>"060711223159781547175506632434", "image"=>{"photo"=>#<File:/tmp/RackMultipart20100717-22824-1llnr23-0>}}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/image?X-Progress-ID=060711223159781547175506632434]
+
+
+Processing ImageController#index (for 127.0.0.1 at 2010-07-17 10:17:13) [GET]
+  Parameters: {"X-Progress-ID"=>"060711223159781547175506632434"}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://localhost/image?X-Progress-ID=060711223159781547175506632434]
+
+
+Processing ImageController#index (for ::1 at 2010-07-17 10:17:54) [GET]
+Rendering template within layouts/application
+Rendering image/index
+Completed in 51ms (View: 48, DB: 0) | 200 OK [http://localhost/image]
+
+
+Processing ImageController#index (for ::1 at 2010-07-17 10:18:04) [POST]
+  Parameters: {"authenticity_token"=>"WZ7GHzfHTojzHp5Lht7TtLlkIYnvLNHi15BLCuAATeM=", "X-Progress-ID"=>"190629441972920622542600700654", "image"=>{"photo"=>#<File:/tmp/RackMultipart20100717-22824-dw5qml-0>}}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/image?X-Progress-ID=190629441972920622542600700654]
+
+
+Processing ImageController#index (for ::1 at 2010-07-17 10:18:04) [GET]
+  Parameters: {"X-Progress-ID"=>"190629441972920622542600700654"}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/image?X-Progress-ID=190629441972920622542600700654]
+
+
+Processing ImageController#index (for ::1 at 2010-07-17 10:18:17) [POST]
+  Parameters: {"authenticity_token"=>"WZ7GHzfHTojzHp5Lht7TtLlkIYnvLNHi15BLCuAATeM=", "X-Progress-ID"=>"192508815105301441077306888476", "image"=>{"photo"=>#<File:/tmp/RackMultipart20100717-22824-1m3bo5t-0>}}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/image?X-Progress-ID=192508815105301441077306888476]
+
+
+Processing ImageController#index (for ::1 at 2010-07-17 10:18:18) [GET]
+  Parameters: {"X-Progress-ID"=>"192508815105301441077306888476"}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://localhost/image?X-Progress-ID=192508815105301441077306888476]
+
+
+Processing ImageController#index (for 192.168.0.18 at 2010-07-17 10:18:47) [GET]
+  Parameters: {"X-Progress-ID"=>"192508815105301441077306888476"}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://192.168.0.18/image?X-Progress-ID=192508815105301441077306888476]
+
+
+Processing ImageController#index (for 192.168.0.18 at 2010-07-17 10:19:38) [POST]
+  Parameters: {"authenticity_token"=>"K4u5mLJf5RztEdWl2QZ0E6FwqpPuRX04M2MjRuozk+8=", "X-Progress-ID"=>"317888961107653089253604172949", "image"=>{"photo"=>#<File:/tmp/RackMultipart20100717-22824-1a5np3w-0>}}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://192.168.0.18/image?X-Progress-ID=317888961107653089253604172949]
+
+
+Processing ImageController#index (for 192.168.0.18 at 2010-07-17 10:19:38) [GET]
+  Parameters: {"X-Progress-ID"=>"317888961107653089253604172949"}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://192.168.0.18/image?X-Progress-ID=317888961107653089253604172949]
+
+
+Processing ImageController#index (for 192.168.0.18 at 2010-07-17 10:22:33) [GET]
+  Parameters: {"X-Progress-ID"=>"317888961107653089253604172949"}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 17ms (View: 14, DB: 0) | 200 OK [http://192.168.0.18/image?X-Progress-ID=317888961107653089253604172949]
+
+
+Processing ImageController#index (for 192.168.0.18 at 2010-07-17 10:23:06) [POST]
+  Parameters: {"authenticity_token"=>"K4u5mLJf5RztEdWl2QZ0E6FwqpPuRX04M2MjRuozk+8=", "X-Progress-ID"=>"033940724720171365588402360146", "image"=>{"photo"=>#<File:/tmp/RackMultipart20100717-22878-69wn9o-0>}}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://192.168.0.18/image?X-Progress-ID=033940724720171365588402360146]
+
+
+Processing ImageController#index (for 192.168.0.18 at 2010-07-17 10:23:06) [GET]
+  Parameters: {"X-Progress-ID"=>"033940724720171365588402360146"}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://192.168.0.18/image?X-Progress-ID=033940724720171365588402360146]
+
+
+Processing ImageController#index (for 192.168.0.18 at 2010-07-17 10:23:15) [GET]
+  Parameters: {"X-Progress-ID"=>"033940724720171365588402360146"}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://192.168.0.18/image?X-Progress-ID=033940724720171365588402360146]
+
+
+Processing ImageController#index (for 192.168.0.18 at 2010-07-17 10:23:50) [POST]
+  Parameters: {"authenticity_token"=>"K4u5mLJf5RztEdWl2QZ0E6FwqpPuRX04M2MjRuozk+8=", "X-Progress-ID"=>"487907343214041307454275561937", "image"=>{"photo"=>#<File:/tmp/RackMultipart20100717-22888-q4a13z-0>}}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://192.168.0.18/image?X-Progress-ID=487907343214041307454275561937]
+
+
+Processing ImageController#index (for 192.168.0.18 at 2010-07-17 10:23:51) [GET]
+  Parameters: {"X-Progress-ID"=>"487907343214041307454275561937"}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://192.168.0.18/image?X-Progress-ID=487907343214041307454275561937]
+
+
+Processing ImageController#index (for 192.168.0.18 at 2010-07-17 10:25:10) [GET]
+Rendering template within layouts/application
+Rendering image/index
+Completed in 99ms (View: 97, DB: 0) | 200 OK [http://192.168.0.18/]
+
+
+Processing ImageController#index (for 192.168.0.18 at 2010-07-17 10:25:59) [POST]
+  Parameters: {"authenticity_token"=>"N8G4DlTf8QRRXecu07S4nZ0MHjrp35wPfrqQh/7X0/E=", "X-Progress-ID"=>"952171926830731382723873806874", "image"=>{"photo"=>#<File:/tmp/RackMultipart20100717-22888-1mdkt40-0>}}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://192.168.0.18/image?X-Progress-ID=952171926830731382723873806874]
+
+
+Processing ImageController#index (for 192.168.0.11 at 2010-07-17 10:25:59) [GET]
+Rendering template within layouts/application
+Rendering image/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://192.168.0.18/]
+
+
+Processing ImageController#index (for 192.168.0.18 at 2010-07-17 10:26:00) [GET]
+  Parameters: {"X-Progress-ID"=>"952171926830731382723873806874"}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://192.168.0.18/image?X-Progress-ID=952171926830731382723873806874]
+
+
+Processing ImageController#index (for 192.168.0.11 at 2010-07-17 10:26:31) [POST]
+  Parameters: {"authenticity_token"=>"OgznZxHMw3tq9CTSh72PpXLsYKVy3nrziY6hjsNJ6ns=", "X-Progress-ID"=>"048632032548406336231660001404", "image"=>{"photo"=>#<File:/tmp/RackMultipart20100717-22888-ii5e25-0>}}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://192.168.0.18/image?X-Progress-ID=048632032548406336231660001404]
+
+
+Processing ImageController#index (for 192.168.0.11 at 2010-07-17 10:26:32) [GET]
+  Parameters: {"X-Progress-ID"=>"048632032548406336231660001404"}
+Rendering template within layouts/application
+Rendering image/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://192.168.0.18/image?X-Progress-ID=048632032548406336231660001404]

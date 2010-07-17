@@ -15,3 +15,6 @@ config.action_controller.perform_caching             = false
 
 # Don't care if the mailer can't send
 config.action_mailer.raise_delivery_errors = false
+
+# location of the Image Magick command files
+Paperclip.options[:command_path] = "/opt/local/bin"
